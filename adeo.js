@@ -19,7 +19,7 @@ function showPopup() {
   popupAd.style.width = '100%';
   popupAd.style.height = '100vh';
   popupAd.style.zIndex = '1000';
-  popupAd.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+  popupAd.style.backgroundColor = 'transparent';
   popupAd.style.display = 'flex';
   popupAd.style.justifyContent = 'center';
   popupAd.style.alignItems = 'center';
@@ -37,7 +37,7 @@ function showPopup() {
   // Add the click event listener to remove the popup
   popupAd.addEventListener('click', function() {
       document.body.removeChild(popupAdLink); // Remove the popup on click
-      setTimeout(showPopup, 1000); // Show again after 1 minute
+      setTimeout(showPopup, 30000); // Show again after 1 minute
   });
 
   console.log(randomNo)
@@ -45,4 +45,4 @@ function showPopup() {
 }
 
 // Initially show the popup after 1 minute
-setTimeout(showPopup, 1000);
+setTimeout(showPopup, 30000);
