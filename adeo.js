@@ -3,6 +3,7 @@ let popupAdLinks = [
   "https://foresightcoercive.com/vw6c8a1s?key=b14863dd5c001ab7956f63b8d20d6b71",
   "https://foresightcoercive.com/n6nt6xgv?key=bc81ac46d7e280c70a2c82d71101a7f3",
   "https://foresightcoercive.com/b2irdaixyg?key=8afb70a3afecaaa5e5f8a7889c979258",
+  "https://foresightcoercive.com/tcv6w00f?key=118568e4dd0b125683352f9b6ec745d3",
   "https://libraverce.netlify.app"
 ];
 
